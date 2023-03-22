@@ -1,0 +1,58 @@
+
+
+body{
+    background-color: rgb(252, 82, 52);
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#myCanvas{
+    border: 5px solid black;
+}
+
+#scoreTxt{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+#bestScoreTxt{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px; 
+
+}
+
+#allScore{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1400px){
+    #scoreTxt{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+    }
+    
+    #bestScoreTxt{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;  
+    }
+}
+
+#resetBtn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#resetBtn:hover{
+    background-color: black;
+    transition: ease-in 0.2s;
+    color: white;
+    border: 1px solid white;
+}
+
